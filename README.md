@@ -88,7 +88,7 @@ You are now ready to launch Jupyter and begin the assignment!
 2.  Run all cells in these three notebooks from top to bottom on the HPC so that the outputs are clearly visible.
 3.  Download your four completed notebooks (`.ipynb` files) from the HPC to your local machine.
 4. Zip the three completed notebook files, along with their PDF versions; and name the zip file as "*CA02-Your-Last-Name*".
-5.  Submit the zip file as a direct **reply** to the [*coding assignment module of week 2*](https://northeastern.instructure.com/courses/226141/discussion_topics/2877295?module_item_id=12458419) on Canvas.
+5.  Submit the zip file as a direct **reply** to the [*coding assignment module of week 2*](https://northeastern.instructure.com/courses/246096/discussion_topics/3039516) on Canvas.
 
 ### Important Notes
 

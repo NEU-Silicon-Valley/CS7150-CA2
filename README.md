@@ -19,7 +19,7 @@ After completing this assignment, you will be able to:
 
 ## Assignment Structure
 
-This assignment is broken down into five notebooks, each building upon the last.
+This assignment is broken down into three notebooks, each building upon the last.
 
 1.  **`CA2.1_OptimizationAndNetworkArchitecture.ipynb`**
     * You'll start by implementing optimizers like SGD and ADAM from scratch to build a deep intuition for how models learn. You will then use these to train simple neural networks and analyze the impact of different activation functions and loss functions.
@@ -52,12 +52,12 @@ This repository contains the following files:
 
 ### Setup and Environment on Explorer HPC
 
-The recommended platform for this assignment is the **Explorer HPC**, and the easiest way to use it is through the [Open OnDemand (OOD) web interface](ttps://ood.explorer.northeastern.edu/).
+The recommended platform for this assignment is the **Explorer HPC**, and the easiest way to use it is through the [Open OnDemand (OOD) web interface](https://ood.explorer.northeastern.edu/).
 
 **Helpful Links:**
 * **Access Explorer:** You can access the interactive dashboard from [here](https://ood.explorer.northeastern.edu/).
 * **Getting started with Explorer:** Refer to this [document](https://docs.google.com/document/d/1nsP4YUBajdM6j3R0tA4gRnwo9qPdRv5gTtXHYdiXCz8/) to create environments, manage files, and start sessions in our HPC. 
-* **Official Documentaion:** For more info on the HPC, refer to the [Official Documentation](https://rc-docs.northeastern.edu/en/latest/).
+* **Official Documentation:** For more info on the HPC, refer to the [Official Documentation](https://rc-docs.northeastern.edu/en/latest/).
 
 Follow these steps carefully to set up your environment:
 
@@ -86,9 +86,9 @@ You are now ready to launch Jupyter and begin the assignment!
 
 1.  Complete the exercises in notebooks **`CA2.1`**, **`CA2.2`**, and **`CA2.3`**. This involves filling in the `TODO` sections and answering the inline questions.
 2.  Run all cells in these three notebooks from top to bottom on the HPC so that the outputs are clearly visible.
-3.  Download your four completed notebooks (`.ipynb` files) from the HPC to your local machine.
-4. Zip the three completed notebook files, along with their PDF versions; and name the zip file as "*CA02-Your-Last-Name*".
-5.  Submit the zip file as a direct **reply** to the [*coding assignment module of week 2*](https://northeastern.instructure.com/courses/246096/discussion_topics/3039516) on Canvas.
+3.  Download your three completed notebooks (`.ipynb` files) from the HPC to your local machine.
+4. Zip the three completed notebook files, along with their PDF versions; and name the zip file as "*CA2-Your-Last-Name*".
+5.  Submit the zip file as a direct **reply** to the **Coding Assignment 2** discussion thread on Canvas, found in the **Coding Assignments** module for the week this assignment is due. Reply to the existing thread rather than starting a new one.
 
 ### Important Notes
 

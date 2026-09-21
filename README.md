@@ -1,4 +1,4 @@
-# Coding Assignment 2: Optimization, CNNs, and Transfer Learning
+# Coding Assignment 2: Optimization, Network Architecture, and CNNs
 
 Now that you've learned the fundamental mechanics of backpropagation and autograd in CA1, it's time to make neural networks truly work! In this assignment, we will bridge the gap between theory and practice. You'll learn how to control the training process with optimizers and build your own Convolutional Neural Networks (CNNs) from scratch for image recognition.
 
@@ -47,6 +47,48 @@ This repository contains the following files:
 * **Datasets (`.npz`, `.zip`):**
     * `tiny-classification.npz`: Dataset for the training exercises in `CA2.1`.
     * `hard-classification.npz`: Dataset for the extra credit portion of `CA2.1`.
+
+---
+
+## Grading: 60 points here, 20 from discussion
+
+This assignment is worth **80 points total**.
+
+| | Points |
+|---|--------|
+| Notebooks in this repository | 60 |
+| Group discussion | 20 |
+| **Total** | **80** |
+
+### Points in the notebooks (60)
+
+| Notebook | Section | Points |
+|----------|---------|--------|
+| `CA2.1` | Part 1 — Gradient descent and weight decay | 9 |
+| `CA2.1` | Part 2 — The ADAM optimizer | 11 |
+| `CA2.1` | Part 3 — Training neural networks | 16 |
+| `CA2.1` | Part 4 — Weight initialization | 8 |
+| `CA2.2` | Convolutions (9 exercises, 1 pt each) | 9 |
+| `CA2.3` | CIFAR-10 classifier | 7 |
+| | **Total** | **60** |
+
+`CA2.1` also has two extra credit questions worth **5 points** on top of the 60.
+
+Some closely related tasks are graded as a group — for example Tasks 3.1 to 3.3 all run the same
+experiment with a different activation function, so they share a single point between them. Where
+that happens the task heading says so, either `[Tasks 3.1-3.3: 1 point total]` on the first one or
+`[graded with Task 3.1]` on the rest. You still need to do all of them.
+
+### About the discussion (20)
+
+You'll be in a small group of about three students. We'll walk through parts of the assignment
+together and ask you to talk through your own work: why you took a particular approach, what gave
+you trouble, what you would do differently. You can also earn credit by weighing in on a question
+put to someone else in your group.
+
+Keep it relaxed. There's nothing extra to prepare beyond knowing what you submitted, and "I got
+stuck on this part and looked it up" is a perfectly good answer. The point is to hear you reason
+about your own code, not to catch anyone out.
 
 ---
 

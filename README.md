@@ -64,20 +64,25 @@ This assignment is worth **80 points total**.
 
 | Notebook | Section | Points |
 |----------|---------|--------|
-| `CA2.1` | Part 1 — Gradient descent and weight decay | 9 |
+| `CA2.1` | Part 1 — Gradient descent and weight decay | 8 |
 | `CA2.1` | Part 2 — The ADAM optimizer | 11 |
 | `CA2.1` | Part 3 — Training neural networks | 16 |
-| `CA2.1` | Part 4 — Weight initialization | 8 |
+| `CA2.1` | Part 4 — Weight initialization | 9 |
 | `CA2.2` | Convolutions (9 exercises, 1 pt each) | 9 |
 | `CA2.3` | CIFAR-10 classifier | 7 |
 | | **Total** | **60** |
 
 `CA2.1` also has two extra credit questions worth **5 points** on top of the 60.
 
+**How to read the point markers.** Every graded item carries exactly one point value, written in
+square brackets next to it. A section heading never carries a separate total on top of the items
+underneath it, so you can add up the brackets as you go and get the right number. The subtotals in
+the table above are the only place sections are summed.
+
 Some closely related tasks are graded as a group — for example Tasks 3.1 to 3.3 all run the same
 experiment with a different activation function, so they share a single point between them. Where
-that happens the task heading says so, either `[Tasks 3.1-3.3: 1 point total]` on the first one or
-`[graded with Task 3.1]` on the rest. You still need to do all of them.
+that happens the first task says `[Tasks 3.1-3.3: 1 point total]` and the others say
+`[graded with Task 3.1]`. You still need to do all of them.
 
 ### About the discussion (20)
 

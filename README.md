@@ -19,7 +19,7 @@ After completing this assignment, you will be able to:
 
 ## Assignment Structure
 
-This assignment is broken down into three notebooks, each building upon the last.
+This assignment is broken down into three notebooks, each building upon the last, plus an optional extra credit notebook.
 
 1.  **`CA2.1_OptimizationAndNetworkArchitecture.ipynb`**
     * You'll start by implementing optimizers like SGD and ADAM from scratch to build a deep intuition for how models learn. You will then use these to train simple neural networks and analyze the impact of different activation functions and loss functions.
@@ -29,6 +29,9 @@ This assignment is broken down into three notebooks, each building upon the last
 
 3.  **`CA2.3_CIFAR_classifier.ipynb`**
     * Time to apply your knowledge! You'll build your first CNN to classify images from the well-known CIFAR-10 dataset and compare its performance and efficiency against a standard multi-layer perceptron (MLP).
+
+4.  **`CA2.4_ExtraCredit_MNIST.ipynb`** *(optional, extra credit)*
+    * Train a small fully-connected network on MNIST, experiment with its architecture and hyperparameters, then make your own copy that uses a different dataset. Answer the four questions at the end.
 
 </br>
 
@@ -40,6 +43,7 @@ This repository contains the following files:
     * `CA2.1_OptimizationAndNetworkArchitecture.ipynb`: Part 1 of the assignment.
     * `CA2.2_Convolutions.ipynb`: Part 2 of the assignment.
     * `CA2.3_CIFAR_classifier.ipynb`: Part 3 of the assignment.
+    * `CA2.4_ExtraCredit_MNIST.ipynb`: Optional extra credit.
     
 * **Helper Scripts (`.py`):**
     * `hw2utils.py`: A helper script containing utility classes and functions needed for `CA2.1`.
@@ -72,7 +76,10 @@ This assignment is worth **80 points total**.
 | `CA2.3` | CIFAR-10 classifier | 7 |
 | | **Total** | **60** |
 
-`CA2.1` also has two extra credit questions worth **5 points** on top of the 60.
+Extra credit, on top of the 60:
+
+* `CA2.1` has two extra credit questions worth **5 points**.
+* `CA2.4` is an optional notebook worth **7 points**.
 
 **How to read the point markers.** Every graded item carries exactly one point value, written in
 square brackets next to it. A section heading never carries a separate total on top of the items
@@ -134,7 +141,8 @@ You are now ready to launch Jupyter and begin the assignment!
 1.  Complete the exercises in notebooks **`CA2.1`**, **`CA2.2`**, and **`CA2.3`**. This involves filling in the `TODO` sections and answering the inline questions.
 2.  Run all cells in these three notebooks from top to bottom on the HPC so that the outputs are clearly visible.
 3.  Download your three completed notebooks (`.ipynb` files) from the HPC to your local machine.
-4. Zip the three completed notebook files, along with their PDF versions; and name the zip file as "*CA2-Your-Last-Name*".
+4. Zip your completed notebooks into `CA2-Your-Last-Name.zip`. Write your answers in the notebooks, and include a PDF of each notebook as well (exporting from Jupyter or Colab is fine). The PDFs are only there so we can read your written answers quickly.
+    *If you did the `CA2.4` extra credit,* add both of those notebooks too (the MNIST one and your own version with a different dataset), each with its PDF.
 5.  Submit the zip file as a direct **reply** to the **Coding Assignment 2** discussion thread on Canvas, found in the **Coding Assignments** module for the week this assignment is due. Reply to the existing thread rather than starting a new one.
 
 ### Important Notes
